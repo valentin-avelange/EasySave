@@ -1,0 +1,7 @@
+﻿{
+  "globalPathLog": "C:\\Users\\Public",
+  "dailyFileLog": "dailyLog",
+  "stateFileLog": "stateLog",
+  "exceptionFileLog": "exceptionLog",
+  "extensionFile": ".json"
+}

@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="loader.gif" />
+    <None Remove="MVVM\Views\reglage.png" />
+    <None Remove="MVVM\Views\search.png" />
+    <None Remove="Resources\Assets\english-flag.png" />
+    <None Remove="Resources\Assets\french-flag.png" />
+    <None Remove="Resources\Assets\loader.gif" />
+    <None Remove="Resources\Assets\logo.png" />
+    <None Remove="Resources\Assets\reglage.png" />
+    <None Remove="Resources\Assets\search.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="loader.gif" />
+    <Resource Include="MVVM\Views\reglage.png" />
+    <Resource Include="MVVM\Views\search.png" />
+    <Resource Include="Resources\Assets\english-flag.png" />
+    <Resource Include="Resources\Assets\french-flag.png" />
+    <Resource Include="Resources\Assets\loader.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Assets\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Assets\reglage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Assets\search.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

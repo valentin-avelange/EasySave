@@ -1,0 +1,21 @@
+﻿<Window x:Class="EasySave2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasySave2"
+        mc:Ignorable="d"
+        MinHeight="435" MinWidth="720"
+        Title="EasySave" 
+        Icon="Resources/Assets/logo.png"
+
+        Height="500" Width="950"
+        DataContext="MVVM.ViewModels.MainViewModel">
+    <Grid>
+        <MediaElement Source="/loader.gif" Width="100" Margin="375,76,375,-76"/>
+        <TextBlock Text="EasySave" Foreground="#228be6" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="100" FontWeight="Bold" FontFamily="Arial" Margin="0,100,0,0"/>
+        <TextBlock Text="by ProSoft" Foreground="#495057" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" FontFamily="Arial" Margin="340,200,0,0"/>
+        <ProgressBar Foreground="#228be6" BorderBrush="White" Minimum="0" Maximum="100" Value="0" Name="PB_Loading" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="500" Margin="0,0,0,50" Height="4"/>
+    </Grid>
+
+</Window>

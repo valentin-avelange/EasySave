@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="EasySave.Controllers.LoggerController">
+    <Position X="19.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAIAAAAAAAAAEAgUAABAgACAAAAAAAAAAACAAE=</HashCode>
+      <FileName>Controllers\LoggerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Controllers.MainController">
+    <Position X="19.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAA=</HashCode>
+      <FileName>Controllers\MainController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Traduction" />
+      <Property Name="SaveWork" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EasySave.Controllers.SaveWorkController">
+    <Position X="19" Y="10.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAABCACAAA=</HashCode>
+      <FileName>Controllers\SaveWorkController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Traduction" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="SaveWorks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EasySave.Controllers.TraductionController">
+    <Position X="19" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAIA=</HashCode>
+      <FileName>Controllers\TraductionController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Traduction" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EasySave.Models.DayLog">
+    <Position X="27.75" Y="17.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAAAAAABAAgAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DayLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Models.FileCompare" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FileCompare.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySave.Models.Logs">
+    <Position X="26.5" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Models\Logs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Models.ProgressLog">
+    <Position X="26.5" Y="10.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAACAAEAA=</HashCode>
+      <FileName>Models\ProgressLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Models.SaveWork">
+    <Position X="23.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAEACAAMAQAIwAAAAAAABBAAABABAA=</HashCode>
+      <FileName>Models\SaveWork.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_logger" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EasySave.Models.StateLog">
+    <Position X="24.75" Y="17.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAABAAAgAAAAAAIgAAAABAAAA=</HashCode>
+      <FileName>Models\StateLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasyTrad.Trad">
+    <Position X="23.5" Y="13" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Traduction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.CompareSaves">
+    <Position X="26.5" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\CompareSaves.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.ConfirmContinue">
+    <Position X="9.5" Y="8.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\ConfirmContinue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.ConfirmRemoveSave">
+    <Position X="12.25" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\ConfirmRemoveSave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.CreateSave">
+    <Position X="12.25" Y="8.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\CreateSave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.ListSaves">
+    <Position X="9.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\ListSaves.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.Menu">
+    <Position X="15" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQhgAAA=</HashCode>
+      <FileName>Views\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.Message">
+    <Position X="9.5" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.ProgressBar" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AA4AAAAAACgAAAAAAAAAAIAAAABAAACAAEAAAAAARMA=</HashCode>
+      <FileName>Views\ProgressBar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySave.Views.RemoveSaves">
+    <Position X="15" Y="8.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\RemoveSaves.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.SavingSave">
+    <Position X="12.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\SavingSave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Views.SavingSaves">
+    <Position X="15" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Views\SavingSaves.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave.Program">
+    <Position X="19.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EasySave.Models.MenuItems">
+    <Position X="26.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAEAAIAAAAAABAAAAAAAAEAAIABAAAAAAAI=</HashCode>
+      <FileName>Models\MenuItems.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EasySave.Models.SaveState">
+    <Position X="28.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SaveState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="Culture">en-US</system:String>
+    <system:String x:Key="Window">Window</system:String>
+    <system:String x:Key="cmdExit">Exit</system:String>
+    <system:String x:Key="lblWelcome">Hello</system:String>
+    <system:String x:Key="World">World !</system:String>
+    <system:String x:Key="lblChangeLangage">Change language</system:String>
+    <system:String x:Key="RemoveAll">Remove all</system:String>
+    <system:String x:Key="StartAll">Start all</system:String>
+    <system:String x:Key="AddSave">Add new save</system:String>
+    <system:String x:Key="Create">Create</system:String>
+    <system:String x:Key="Browse">Browse</system:String>
+    <system:String x:Key="SaveChanges">Save changes</system:String>
+    <system:String x:Key="Complete">Complete</system:String>
+    <system:String x:Key="Differential">Differential</system:String>
+    <system:String x:Key="Remove">Remove</system:String>
+    <system:String x:Key="Edit">Edit</system:String>
+    <system:String x:Key="Start">Start</system:String>
+    <system:String x:Key="French">French</system:String>
+    <system:String x:Key="English">English</system:String>
+    <system:String x:Key="Name">Save name</system:String>
+    <system:String x:Key="SourcePath">Source directory</system:String>
+    <system:String x:Key="TargetPath">Target directory</system:String>
+    <system:String x:Key="Progress">Progress</system:String>
+    <system:String x:Key="MyFile">My File.</system:String>
+    <system:String x:Key="ExtensionName">Name of extension</system:String>
+    <system:String x:Key="SaveType">Save Type</system:String>
+    <system:String x:Key="Parameters">Settings</system:String>
+    <system:String x:Key="BusinessSoftware">Business Software</system:String>
+    <system:String x:Key="MaxSizeFile">Maximum file size (o) :</system:String>
+    <system:String x:Key="LogPath">Logs directory :</system:String>
+    <system:String x:Key="CryptoPath">Cryptosoft App :</system:String>
+    <system:String x:Key="NameSoftware">Busines software name</system:String>
+</ResourceDictionary>

@@ -1,0 +1,219 @@
+[
+  {
+    "Create": {
+      "en-EN": "Create saveWork",
+      "fr-FR": "Créer Travail de Sauvegarde"
+    }
+  },
+
+  {
+    "List": {
+      "en-EN": "List saveworks",
+      "fr-FR": "Lister les travaux de sauvegarde"
+    }
+  },
+
+  {
+    "Compare": {
+      "en-EN": "Compare one savework",
+      "fr-FR": "Comparer un travail de sauvegarde"
+    }
+  },
+
+  {
+    "Start": {
+      "en-EN": "Start saves",
+      "fr-FR": "Commencer les sauvegardes"
+    }
+  },
+
+  {
+    "StartOnce": {
+      "en-EN": "Start once save",
+      "fr-FR": "Commencer une sauvegarde"
+    }
+  },
+
+  {
+    "StartAll": {
+      "en-EN": "Start saves",
+      "fr-FR": "Commencer les sauvegardes"
+    }
+  },
+
+  {
+    "Stop": {
+      "en-EN": "Stop saves",
+      "fr-FR": "Arreter les sauvegardes"
+    }
+  },
+
+  {
+    "Switch": {
+      "en-EN": "Translate in French",
+      "fr-FR": "Traduire en Anglais"
+    }
+  },
+
+  {
+    "Name": {
+      "en-EN": "Name",
+      "fr-FR": "Nom"
+    }
+  },
+
+  {
+    "Source": {
+      "en-EN": "Source path",
+      "fr-FR": "Repertoire source"
+    }
+  },
+
+  {
+    "Target": {
+      "en-EN": "Target path",
+      "fr-FR": "Repertoire cible"
+    }
+  },
+
+  {
+    "TypeDiffSave": {
+      "en-EN": "Differentiel save type ? ('yes' or 'no')",
+      "fr-FR": "Sauvegarde de type differentiel ? ('yes' or 'no')"
+    }
+  },
+
+  {
+    "SaveFinish": {
+      "en-EN": " : Save finished",
+      "fr-FR": " : Sauvegarde terminée"
+    }
+  },
+
+  {
+    "PluralSaveFinish": {
+      "en-EN": "Save(s) finished",
+      "fr-FR": "Sauvegarde(s) terminée(s)"
+    }
+  },
+
+  {
+    "AddSuccess": {
+      "en-EN": "Successfully added",
+      "fr-FR": "Ajouté avec succès"
+    }
+  },
+
+  {
+    "AddFail": {
+      "en-EN": "Failed to add : only 5 saves can be created",
+      "fr-FR": "Echec de l'ajout : seul 5 sauvegardes peuvent être créées"
+    }
+  },
+
+  {
+    "Remove": {
+      "en-EN": "Delete a save work",
+      "fr-FR": "Supprimer un travail de sauvegarde"
+    }
+  },
+  {
+    "Removed": {
+      "en-EN": "The save work was successfully deleted",
+      "fr-FR": "Le travail de sauvegarde a bien été supprimé"
+    }
+  },
+
+  {
+    "WantSupp": {
+      "en-EN": "Do you really want to delete? ('yes' / 'no')",
+      "fr-FR": "Voulez vous vraiment supprimer? ('yes' / 'no')"
+    }
+  },
+
+  {
+    "Cancel": {
+      "en-EN": "Cancel",
+      "fr-FR": "Annuler"
+    }
+  },
+
+  {
+    "Canceled": {
+      "en-EN": "The deletion was canceled",
+      "fr-FR": "La suppression a été annulée"
+    }
+  },
+
+  {
+    "Invalid": {
+      "en-EN": "The entered number is not valid \nPress any key to retry",
+      "fr-FR": "Le nombre que vous avez entré n'est pas valide \nAppuyez sur n'importe quelle touche pour réessayer"
+    }
+  },
+
+  {
+    "ChoiceList": {
+      "en-EN": "Select a number from the choice list !",
+      "fr-FR": "Selectionnez un nombre de la liste de choix !"
+    }
+  },
+
+  {
+    "ChoiceListContinue": {
+      "en-EN": "Select a number from the choice list ! Do you want to continue? ('yes' / 'no')",
+      "fr-FR": "Selectionnez un nombre de la liste de choix ! Voulez vous continuer? ('yes' / 'no')"
+    }
+  },
+
+  {
+    "Closing": {
+      "en-EN": "The application will close in 5 sec. Goodbye !",
+      "fr-FR": "L'application va se fermer dans 5 sec. Au revoir !"
+    }
+  },
+
+  {
+    "PressKey": {
+      "en-EN": "Press any key to retrun to the menu",
+      "fr-FR": "Appuyez sur n'importe quelle touche pour revenir au menu"
+    }
+  },
+
+  {
+    "NothingList": {
+      "en-EN": "The save list is empty",
+      "fr-FR": "La liste de sauvegardes est vide"
+    }
+  },
+  {
+    "SaveCanceled": {
+      "en-EN": "The save was canceled",
+      "fr-FR": "La sauvegarde a été annulée"
+    }
+  },
+  {
+    "SavesCanceled": {
+      "en-EN": "The saves were canceled",
+      "fr-FR": "Les sauvegardes ont été annulées"
+    }
+  },
+  {
+    "InvalidFolder": {
+      "en-EN": "The folder you entred can't be saved, please enter a valid source path",
+      "fr-FR": "Le dossier que vous avez entré ne peut pas être sauvegardé, entrez un répertoire source valide"
+    }
+  },
+  {
+    "NothingRemove": {
+      "en-EN": "There are no save works to remove",
+      "fr-FR": "Il n'y a aucun travail de sauvegarde a supprimer"
+    }
+  },
+  {
+    "PathExist": {
+      "en-EN": "Non-existent Path, please retry !",
+      "fr-FR": "Répertoire inexistant, réessayez !"
+    }
+  }
+]

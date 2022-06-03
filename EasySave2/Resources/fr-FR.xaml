@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="Culture">fr-FR</system:String>
+    <system:String x:Key="Window">Fenêtre</system:String>
+    <system:String x:Key="cmdExit">Quitter</system:String>
+    <system:String x:Key="lblWelcome">Bonjour</system:String>
+    <system:String x:Key="World">Tout le monde !</system:String>
+    <system:String x:Key="lblChangeLangage">Changer de langue</system:String>
+    <system:String x:Key="RemoveAll">Tout supprimer</system:String>
+    <system:String x:Key="StartAll">Tout démarrer</system:String>
+    <system:String x:Key="AddSave">Créer sauvegarde</system:String>
+    <system:String x:Key="Create">Créer</system:String>
+    <system:String x:Key="Browse">Parcourir</system:String>
+    <system:String x:Key="SaveChanges">Enregistrer les changements</system:String>
+    <system:String x:Key="Complete">Complet</system:String>
+    <system:String x:Key="Differential">Différentiel</system:String>
+    <system:String x:Key="Remove">Supprimer</system:String>
+    <system:String x:Key="Edit">Modifier</system:String>
+    <system:String x:Key="Start">Démarrer</system:String>
+    <system:String x:Key="French">Francais</system:String>
+    <system:String x:Key="English">Anglais</system:String>
+    <system:String x:Key="Name">Nom de sauvegarde</system:String>
+    <system:String x:Key="SourcePath">Répertoire source</system:String>
+    <system:String x:Key="TargetPath">Répertoire cible</system:String>
+    <system:String x:Key="Progress">Progression</system:String>
+    <system:String x:Key="MyFile">Mon Fichier.</system:String>
+    <system:String x:Key="ExtensionName">Nom de l'extension</system:String>
+    <system:String x:Key="SaveType">Type de sauvegarde</system:String>
+    <system:String x:Key="Parameters">Paramètres</system:String>
+    <system:String x:Key="BusinessSoftware">Logiciel Métier</system:String>
+    <system:String x:Key="MaxSizeFile">Taille maximale de fichier (o) :</system:String>
+    <system:String x:Key="LogPath">Répertoire des Logs :</system:String>
+    <system:String x:Key="CryptoPath">Aplication Cryptosoft :</system:String>
+    <system:String x:Key="NameSoftware">Nom logiciel métier</system:String>
+</ResourceDictionary>
+    

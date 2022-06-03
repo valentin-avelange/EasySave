@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Assets\loader.gif" />
+    <None Remove="Resources\Assets\logo.png" />
+    <None Remove="Resources\Assets\search.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Assets\loader.gif" />
+    <Resource Include="Resources\Assets\logo.png" />
+    <Resource Include="Resources\Assets\search.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="EasySave2.MVVM.Models.DayLog">
+    <Position X="0.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAAAAAABAAgAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Models\DayLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.Models.FileCompare" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="13.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Models\FileCompare.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySave2.MVVM.Models.Logs">
+    <Position X="2" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MVVM\Models\Logs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.Models.ProgressLog">
+    <Position X="4.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAACAAEAA=</HashCode>
+      <FileName>MVVM\Models\ProgressLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.Models.SaveWork">
+    <Position X="0.5" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAIAAEBCAAMAQCAwAAAAgAEBBAAABABAA=</HashCode>
+      <FileName>MVVM\Models\SaveWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.Models.StateLog">
+    <Position X="3" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAABAAAgAAAAAAIgAAAABAAAA=</HashCode>
+      <FileName>MVVM\Models\StateLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.ViewModels.ExtentionVM">
+    <Position X="10" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAg=</HashCode>
+      <FileName>MVVM\ViewModels\ExtentionVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.ViewModels.ListSavesVM">
+    <Position X="10" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAYAAAAAAAACAQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>MVVM\ViewModels\ListSavesVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.ViewModels.LoggerVM">
+    <Position X="10" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAIABAAAAAAIEAgUAABAgACAQAAAAAAAAACAAE=</HashCode>
+      <FileName>MVVM\ViewModels\LogVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.ViewModels.Context">
+    <Position X="15.25" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUQAAAAAAAAAAAAAAAAAAABIgAAAACAAgAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModels\Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MVVM.Views.AddSaveView" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AVACAAAAAAAAQAAAAAAAAAAAgAAAABBAAEAAAGAMAgA=</HashCode>
+      <FileName>MVVM\Views\AddSaveView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySave2.MVVM.Views.ListSavesView" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="11.25" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="EasySave2.MVVM.Views.ListSavesView.ResourceDictionaryExtensions">
+        <TypeIdentifier>
+          <NewMemberFileName>MVVM\Views\ListSavesView.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAQgQABAAAAAAgAAAAABAAAKAAAAgAAIA=</HashCode>
+      <FileName>MVVM\Views\ListSavesView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySave2.MVVM.Views.ParamView" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAQgQAAAAAAAAgCgAAgAEAwAAAAAAAQAA=</HashCode>
+      <FileName>MVVM\Views\ParamView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EasySave2.App">
+    <Position X="30.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasySave2.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MainController" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="EasySave2.MVVM.Models.EnumTypeSaveWork">
+    <Position X="3.5" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>MVVM\Models\EnumTypeSaveWork.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EasySave2.MVVM.Models.MenuItems">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAEAAIAAAAAABAAAAAAAAEAAIABAAAAAAAI=</HashCode>
+      <FileName>MVVM\Models\MenuItems.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EasySave2.MVVM.Models.SaveState">
+    <Position X="3.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\Models\SaveState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
